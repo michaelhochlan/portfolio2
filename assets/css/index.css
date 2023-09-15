@@ -462,15 +462,15 @@ img {
 @media (min-width: 481px) and (max-width: 767px) {
   
 input[type=reset] {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 input[type=submit] {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 button {
-font-size: xx-small;
+font-size: x-small;
 }
 
 .container {
@@ -479,30 +479,30 @@ font-size: xx-small;
 }
 
 .result-area {
-font-size: xx-small;
+font-size: x-small;
 width: 90%;
 }	
 
 #bmrresult #bmiresult p{
-font-size: xx-small;
+font-size: x-small;
 width: 90%;
 }	
 
 .input-field {
-font-size: xx-small;
+font-size: x-small;
 }
 
 select {
-font-size: xx-small;
+font-size: x-small;
 }	
 
 .bmr-area {
-    font-size: xx-small;
+    font-size: x-small;
     width: 90%;
 }
 
 .calculator-area {
-    font-size: xx-small;
+    font-size: x-small;
     font-weight: 400;
     width: 90%;
 		height: 70%;
@@ -513,7 +513,7 @@ img {
 }
 
 .heading {
-    font-size: x-small;
+    font-size: small;
     width: 90%;
 }
 
@@ -530,15 +530,15 @@ img {
 @media (min-width: 320px) and (max-width: 480px) {
   
 input[type=reset] {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 input[type=submit] {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 button {
-font-size: xx-small;
+font-size: x-small;
 }
 
 .container {
@@ -546,30 +546,30 @@ font-size: xx-small;
 }
 
 .result-area {
-font-size: xx-small;
+font-size: x-small;
 width: 90%;
 }	
 
 #bmrresult #bmiresult p{
-font-size: xx-small;
+font-size: x-small;
 width: 90%;
 }	
 
 .input-field {
-font-size: xx-small;
+font-size: x-small;
 }
 
 select {
-font-size: xx-small;
+font-size: x-small;
 }	
 
 .bmr-area {
-    font-size: xx-small;
+    font-size: x-small;
     width: 90%;
 }
 
 .calculator-area {
-    font-size: xx-small;
+    font-size: x-small;
     font-weight: 400;
     width: 90%;
 		height: 70%;
@@ -580,7 +580,7 @@ img {
 }
 
 .heading {
-    font-size: x-small;
+    font-size: small;
     width: 90%;
 }
 
