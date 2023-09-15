@@ -379,7 +379,8 @@ font-size: x-small;
 .calculator-area {
     font-size: x-small;
     font-weight: 400;
-    width: 50%;
+    width: 80%;
+		height: 70%;
 }
 
 img {
@@ -418,7 +419,6 @@ font-size: small;
 
 .container {
     width: 80%;
-	
 }
 
 .result-area {
@@ -448,6 +448,7 @@ font-size: small;
     font-size: small;
     font-weight: 400;
     width: 50%;
+		height: 70%;
 }
 
 img {
@@ -515,6 +516,7 @@ font-size: xx-small;
     font-size: xx-small;
     font-weight: 400;
     width: 90%;
+		height: 70%;
 }
 
 img {
@@ -531,8 +533,6 @@ img {
 }
 }
   
-
-
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -554,7 +554,6 @@ font-size: xx-small;
 
 .container {
     width: 90%;
-	
 }
 
 .result-area {
@@ -584,6 +583,7 @@ font-size: xx-small;
     font-size: xx-small;
     font-weight: 400;
     width: 90%;
+		height: 70%;
 }
 
 img {
