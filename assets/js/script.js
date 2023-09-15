@@ -24,3 +24,15 @@ function calculateBmr() {
   const resultBmr = document.getElementById("bmrresult");
   resultBmr.innerHTML = resText1.concat(" ", bmrOne);
 }
+/**
+ * The BMI calculation, called whith button.addEventListener()
+ */
+function calculateBmi() {
+  var weight = document.getElementById("weight").value;
+  var height = document.getElementById("height").value;
+
+  var bmi = Math.round(weight / ((height / 100) * (height / 100)));
+  const resText2 = "Your BMI:";
+  const resultBmi = document.getElementById("bmiresult");
+  resultBmi.innerHTML = resText2.concat(" ", bmi);
+}
