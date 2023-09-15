@@ -462,15 +462,15 @@ img {
 @media (min-width: 481px) and (max-width: 767px) {
   
 input[type=reset] {
-    font-size: x-small;
+    font-size: small;
 }
 
 input[type=submit] {
-    font-size: x-small;
+    font-size: small;
 }
 
 button {
-font-size: x-small;
+font-size: small;
 }
 
 .container {
@@ -479,30 +479,30 @@ font-size: x-small;
 }
 
 .result-area {
-font-size: x-small;
+font-size: small;
 width: 90%;
 }	
 
 #bmrresult #bmiresult p{
-font-size: x-small;
+font-size: small;
 width: 90%;
 }	
 
 .input-field {
-font-size: x-small;
+font-size: small;
 }
 
 select {
-font-size: x-small;
+font-size: small;
 }	
 
 .bmr-area {
-    font-size: x-small;
+    font-size: small;
     width: 90%;
 }
 
 .calculator-area {
-    font-size: x-small;
+    font-size: small;
     font-weight: 400;
     width: 90%;
 		height: 70%;
@@ -513,7 +513,7 @@ img {
 }
 
 .heading {
-    font-size: small;
+    font-size: large;
     width: 90%;
 }
 
