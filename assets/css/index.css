@@ -253,17 +253,6 @@ input[type=reset]:hover {
 }
 
 /* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-  /* CSS */
-  
-}
-
-/* 
   ##Device = Laptops, Desktops
   ##Screen = B/w 1025px to 1280px
 */
@@ -313,7 +302,7 @@ font-size: small;
 .calculator-area {
     font-size: small;
     font-weight: 400;
-    width: 50%;
+    width: 60%;
 }
 
 img {
