@@ -43,6 +43,33 @@ body {
     color: white;
 }
 
+/* Style the Header Logo and text */
+
+.heading {
+    text-align: center;
+    float: center;
+    font-size: 4.5rem;
+    background-color: rgb(249, 250, 250, 0.9);
+    border-radius: 25px;
+    border-style: groove;
+    border-color: black;
+    border-width: 5px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.logo {
+    width: auto;
+    padding-right: 5px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+}
+
 /* Style the Footer */
 
 .footer {
