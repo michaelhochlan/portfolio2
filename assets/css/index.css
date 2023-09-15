@@ -58,8 +58,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
-
-
 }
 
 .logo {
@@ -87,7 +85,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-
 }
 
 .bmr-area {
@@ -271,12 +268,67 @@ input[type=reset]:hover {
   ##Screen = B/w 1025px to 1280px
 */
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+@media (min-width: 1150px) and (max-width: 1280px) {
   
-  /* CSS */
-  
+input[type=reset] {
+    font-size: small;
 }
 
+input[type=submit] {
+    font-size: small;
+}
+
+button {
+font-size: small;
+}
+
+.container {
+    width: 80%;
+	
+}
+
+.result-area {
+font-size: small;
+width: 80%;
+}	
+
+#bmrresult #bmiresult p{
+font-size: small;
+width: 80%;
+}	
+
+.input-field {
+font-size: small;
+}
+
+select {
+font-size: small;
+}	
+
+.bmr-area {
+    font-size: small;
+    width: 80%;
+}
+
+.calculator-area {
+    font-size: small;
+    font-weight: 400;
+    width: 50%;
+}
+
+img {
+    height: 100px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    width: 70%;
+}
+
+.topnav a {
+    font-size: 20px;
+}
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
@@ -284,9 +336,66 @@ input[type=reset]:hover {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
-  /* CSS */
-  
+input[type=reset] {
+    font-size: x-small;
 }
+
+input[type=submit] {
+    font-size: x-small;
+}
+
+button {
+font-size: x-small;
+}
+
+.container {
+    width: 80%;
+	
+}
+
+.result-area {
+font-size: x-small;
+width: 80%;
+}	
+
+#bmrresult #bmiresult p{
+font-size: x-small;
+width: 80%;
+}	
+
+.input-field {
+font-size: x-small;
+}
+
+select {
+font-size: x-small;
+}	
+
+.bmr-area {
+    font-size: x-small;
+    width: 80%;
+}
+
+.calculator-area {
+    font-size: x-small;
+    font-weight: 400;
+    width: 50%;
+}
+
+img {
+    height: 75px;
+}
+
+.heading {
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+.topnav a {
+    font-size: 15px;
+}
+}
+  
 
 /* 
   ##Device = Tablets, Ipads (landscape)
@@ -295,8 +404,64 @@ input[type=reset]:hover {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  /* CSS */
-  
+input[type=reset] {
+    font-size: small;
+}
+
+input[type=submit] {
+    font-size: small;
+}
+
+button {
+font-size: small;
+}
+
+.container {
+    width: 80%;
+	
+}
+
+.result-area {
+font-size: small;
+width: 80%;
+}	
+
+#bmrresult #bmiresult p{
+font-size: small;
+width: 80%;
+}	
+
+.input-field {
+font-size: small;
+}
+
+select {
+font-size: small;
+}	
+
+.bmr-area {
+    font-size: small;
+    width: 80%;
+}
+
+.calculator-area {
+    font-size: small;
+    font-weight: 400;
+    width: 50%;
+}
+
+img {
+    height: 60px;
+}
+
+.heading {
+    font-size: 2.5rem;
+    width: 70%;
+}
+
+.topnav a {
+    font-size: 20px;
+}
 }
 
 /* 
@@ -306,9 +471,67 @@ input[type=reset]:hover {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  /* CSS */
-  
+input[type=reset] {
+    font-size: xx-small;
 }
+
+input[type=submit] {
+    font-size: xx-small;
+}
+
+button {
+font-size: xx-small;
+}
+
+.container {
+    width: 90%;
+	
+}
+
+.result-area {
+font-size: xx-small;
+width: 90%;
+}	
+
+#bmrresult #bmiresult p{
+font-size: xx-small;
+width: 90%;
+}	
+
+.input-field {
+font-size: xx-small;
+}
+
+select {
+font-size: xx-small;
+}	
+
+.bmr-area {
+    font-size: xx-small;
+    width: 90%;
+}
+
+.calculator-area {
+    font-size: xx-small;
+    font-weight: 400;
+    width: 90%;
+}
+
+img {
+    height: 25px;
+}
+
+.heading {
+    font-size: x-small;
+    width: 90%;
+}
+
+.topnav a {
+    font-size: 15px;
+}
+}
+  
+
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -317,6 +540,62 @@ input[type=reset]:hover {
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  /* CSS */
-  
+input[type=reset] {
+    font-size: xx-small;
+}
+
+input[type=submit] {
+    font-size: xx-small;
+}
+
+button {
+font-size: xx-small;
+}
+
+.container {
+    width: 90%;
+	
+}
+
+.result-area {
+font-size: xx-small;
+width: 90%;
+}	
+
+#bmrresult #bmiresult p{
+font-size: xx-small;
+width: 90%;
+}	
+
+.input-field {
+font-size: xx-small;
+}
+
+select {
+font-size: xx-small;
+}	
+
+.bmr-area {
+    font-size: xx-small;
+    width: 90%;
+}
+
+.calculator-area {
+    font-size: xx-small;
+    font-weight: 400;
+    width: 90%;
+}
+
+img {
+    height: 25px;
+}
+
+.heading {
+    font-size: x-small;
+    width: 90%;
+}
+
+.topnav a {
+    font-size: 15px;
+}
 }
