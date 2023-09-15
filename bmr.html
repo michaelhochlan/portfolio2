@@ -8,6 +8,7 @@
     <meta name="keywords" content="fitness, fitness-tracker, heart rate, pulse, harris-benedict, bmr">
 
     <!-- Google Fonts-->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Nunito:wght@500&display=swap" rel="stylesheet">
@@ -15,14 +16,14 @@
     <!-- Link to Font-Awesome -->
     <script src="https://kit.fontawesome.com/7168861e58.js" crossorigin="anonymous"></script>
 
-    <!-- CSS -->
+		<!-- CSS -->
     <link rel="stylesheet" href="assets/css/index.css">
 
     <title>Fitness-Calculator</title>
 </head>
 
 <body>
-    <!-- Top Navigation -->
+		<!-- Top Navigation -->
     <nav>
         <div class="topnav">
             <a href="index.html">Home</a>
@@ -31,51 +32,50 @@
             <a href="contact.html">Contact Us</a>
         </div>
     </nav>
-
-    <!-- Header logo and page title -->
+		<!-- Header logo and page title -->
     <header>
         <div class="heading">
             <img class="logo" src="assets/images/logo.png" alt="logo"> BMR - Explained
         </div>
     </header>
-
-    <!-- Page content -->
+		<!-- Page content -->
     <article class="bmr-area">
         <div>
-            <p>The Body Mass Index <strong>(BMI)</strong> is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between. These ranges of BMI vary based on factors such as region and age, and are sometimes further divided into subcategories such as severely underweight or very severely obese. Being overweight or underweight can have significant health effects, so while BMI is an imperfect measure of healthy body weight, it is a useful indicator of whether any additional testing or action is required. Refer to the table below to see the different categories based on BMI that are used by the calculator.</p>
-            <p>
-                <br>
-            <p><strong>BMI table for adults</strong></p>
+            <p>Your basal metabolic rate <strong>(BMR)</strong> is the number of calories your body needs to accomplish its most basic (basal) life-sustaining functions.</p>
             <br>
-            <p>This is the World Health Organization's (WHO) recommended body weight based on BMI values for adults. It is used for both men and women, age 20 or older.</p>
+            <p><strong>BMR Variables</strong></p>
             <br>
         </div>
         <div>
             <ul>
-                <li><strong>Severe Thinness</strong>: less than 16 </li>
+                <li><strong>Muscle Mass</strong> – Aerobic exercises, such as running or cycling, have no effect on BMR. However, anaerobic exercises, such as weight-lifting, indirectly lead to a higher BMR because they build muscle mass, increasing resting energy consumption. The more muscle mass in the physical composition of an individual, the higher the BMR required to sustain their body at a certain level.</li>
                 <br>
-                <li><strong>Moderate Thinness</strong>: 16 - 17</li>
+                <li><strong>Age</strong> – The more elderly and limber an individual, the lower their BMR, or the lower the minimum caloric intake required to sustain the functioning of their organs at a certain level.</li>
                 <br>
-                <li><strong>Mild Thinness</strong>: 17 - 18.5</li>
+                <li><strong>Genetics</strong> – Hereditary traits passed down from ancestors influence BMR.</li>
                 <br>
-                <li><strong>Normal</strong>: 18.5 - 25</li>
+                <li><strong>Weather</strong> – Cold environments raise BMR because of the energy required to create a homeostatic body temperature. Likewise, too much external heat can raise BMR as the body expends energy to cool off internal organs. BMR increases approximately 7% for every increase of 1.36 degrees Fahrenheit in the body's internal temperature.</li>
                 <br>
-                <li><strong>Overweight</strong>: 25 - 30</li>
+                <li><strong>Diet</strong> – Small, routinely dispersed meals increase BMR. On the other hand, starvation can reduce BMR by as much as 30%. Similar to a phone that goes into power-saving mode during the last 5% of its battery, a human body will make sacrifices such as energy levels, moods, upkeep of bodily physique, and brain functions in order to more efficiently utilize what little caloric energy is being used to sustain it.</li>
                 <br>
-                <li><strong>Obese Class I</strong>: 30 - 35</li>
+                <li><strong>Pregnancy</strong> – Ensuring the livelihood of a separate fetus internally increases BMR. This is why pregnant women tend to eat more than usual. Also, menopause can increase or decrease BMR depending on hormonal changes.</li>
                 <br>
-                <li><strong>Obese Class II</strong>: 35 - 40</li>
-                <br>
-                <li><strong>Obese Class III</strong>: more than 40</li>
+                <li><strong>Supplements</strong> – Certain supplements or drugs raise BMR, mostly to fuel weight loss. Caffeine is a common one.</li>
             </ul>
-        </div>
-        <div>
+
             <br>
-            <p>The formula is BMI = kg/m2 where kg is a person's weight in kilograms and m2 is their height in metres squared.</p>
+            <p>This page uses the <strong>Revised Harris-Benedict Equation</strong>:</p>
+            <br>
+            <p>For <strong>men</strong>:</p>
+            <p><strong>BMR</strong> = 13.397 * Weight + 4.799 * Height - 5.677 * Age + 88.362</p>
+            <br>
+            <p>For <strong>women</strong>:</p>
+            <p><strong>BMR</strong> = 9.247 * Weight + 3.098 * Height - 4.330 * Age + 447.593</p>
         </div>
     </article>
 
     <!-- Footer -->
+
     <footer class="footer">
 
         <a href="https://www.facebook.com" target="_blank" rel="noopener">
@@ -97,8 +97,7 @@
         <p id="footer-p">Copyright ©<em> Eat more donuts</em>2023</p>
 
     </footer>
-		
-    <!-- Javascript -->
+		<!-- Javascript -->
     <script src="assets/js/script.js"></script>
 </body>
 
