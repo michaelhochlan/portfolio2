@@ -39,7 +39,7 @@ function calculateBmi() {
 /**
  * The EventListener for button Calculate
  */
-button.addEventListener("click", function () {
+addEventListener("click", function () {
   calculateBmr();
   calculateBmi();
 });
