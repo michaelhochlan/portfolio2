@@ -5,6 +5,18 @@
     border: none;
 }
 
+html {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Caveat', cursive;
+    font-family: 'Nunito', sans-serif;
+    color: darkslategray;
+}
+
+body {
+    text-align: center;
+}
+
 /* Style the Top-Navigation */
 .topnav {
     background-color: black;
