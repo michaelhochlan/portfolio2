@@ -166,8 +166,8 @@ choose between male and female, which might turn these users off.
 * [W3C validator](https://validator.w3.org/) - for validating HTML code
 * [W3C Jigsaw](https://jigsaw.w3.org/css-validator/) - for validating CSS code
 * [Jshint](https://jshint.com/) - as a linter for JavaScript code
-* [Beautifier]https://beautifier.io/ - to beautify HTML, CSS and JavaScript
-* [Fontawesome]https://fontawesome.com/ for the social media icons
+* [Beautifier](https://beautifier.io/) - to beautify HTML, CSS and JavaScript
+* [Fontawesome](https://fontawesome.com/) - for the social media icons
 
 
 # Testing
