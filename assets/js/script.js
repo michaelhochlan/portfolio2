@@ -36,3 +36,20 @@ function calculateBmi() {
   const resultBmi = document.getElementById("bmiresult");
   resultBmi.innerHTML = resText2.concat(" ", bmi);
 }
+/**
+ * The EventListener for button Calculate
+ */
+button.addEventListener("click", function () {
+  calculateBmr();
+  calculateBmi();
+});
+/**
+ * The EventListener for button Reset
+ */
+reset.addEventListener("click", function () {
+  const resultBmr = document.getElementById("bmrresult");
+  resultBmr.innerHTML = "Your BMR: 0";
+
+  const resultBmi = document.getElementById("bmiresult");
+  resultBmi.innerHTML = "Your BMI: 0";
+});
