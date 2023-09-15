@@ -165,6 +165,61 @@ button:active {
     transform: translateY(4px);
 }
 
+/* Style the contact form */
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    background-color: black;
+    color: white;
+    font-size: large;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+input[type=submit]:hover {
+    background-color: #04AA6D;
+}
+
+input[type=reset]:hover {
+    background-color: #04AA6D;
+}
+
 /* Style the Footer */
 
 .footer {
@@ -199,4 +254,3 @@ button:active {
     background-color: #04AA6D;
     color: black;
 }
-
