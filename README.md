@@ -128,14 +128,14 @@ I used for many values in the css percentages and fine tuned it with the Google 
 
 #### <em>mobile</em>
  
-![Picture of a page](/assets/images/pageBmr.png)
+![Picture of a page](/assets/images/iphone12pro.png)
 
 #### <em>tablet</em>
 
-![Picture of a page](/assets/images/pageBmr.png) 
+![Picture of a page](/assets/images/ipodair.png) 
  #### <em>tablet - landscape view </em>
 
-![Picture of a page](/assets/images/pageBmr.png)
+![Picture of a page](/assets/images/ipadminilandscape.png)
 
 
 ## Future Features
@@ -166,6 +166,9 @@ choose between male and female, which might turn these users off.
 * [W3C validator](https://validator.w3.org/) - for validating HTML code
 * [W3C Jigsaw](https://jigsaw.w3.org/css-validator/) - for validating CSS code
 * [Jshint](https://jshint.com/) - as a linter for JavaScript code
+* [Beautifier]https://beautifier.io/ - to beautify HTML, CSS and JavaScript
+* [Fontawesome]https://fontawesome.com/ for the social media icons
+
 
 # Testing
 ## Validator Testing
@@ -200,6 +203,9 @@ Chrome DevTools was used to test the responsivesness of the pages.
 
 ## Problems Encountered
 
+* According to w3c school there is a float: center but the validator doesn't aknowledge it
+* I started out with a large javascript page and cut it more and more down by defining more functions with less code. The code checks out now, but when I run the fitness calculator now for the first time, it sometimes resets on it's own. Only the first time! After that it runs fine. I can't figure it out and it is too late for me to discuss it with my menthor. It started happening this morning.
+
 # Deployment
 ## Deployment through GitHub Pages
 This site was deployed through GitHub Pages using the following steps:
@@ -216,7 +222,13 @@ This site was deployed through GitHub Pages using the following steps:
 * The page is online
 
 # Credits
-## Code
-## Acknowledgements
 
- 
+Many Thanks to fwstudio for the free backgroundimage on de.freepik.com (<a href="https://de.freepik.com/fotos-kostenlos/beschaffenheit-der-hoelzernen-vorstaende_969740.htm#page=2&query=wooden%20background&position=3&from_view=search&track=ais">Bild von fwstudio</a> auf Freepik)
+
+## Resources I used
+
+* I used https://www.calculator.net/bmr-calculator.html for the BMR informations.
+* I used https://www.calculator.net/bmi-calculator.html for the BMI informations.
+* I used https://www.w3schools.com/howto/howto_css_contact_form.asp to get a quick solution for the contact form and modefied it to fit my needs.
+* I used https://www.w3schools.com/howto/howto_js_topnav.asp to get a quick solution for the Top Navigation and modefied it to fit my needs.
+* I used http://de.freepik.com for the background image, the logo and the female and male images on index.html
