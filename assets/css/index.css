@@ -6,7 +6,7 @@
 }
 
 html {
-		background-image: url(../images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-repeat: no-repeat;
     font-family: 'Caveat', cursive;
     font-family: 'Nunito', sans-serif;
@@ -58,6 +58,8 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
+
+
 }
 
 .logo {
